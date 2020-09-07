@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Body中的JS脚本</h2>
+        <p id="demo">一个段落</p>
+        <button type="button" onclick="myFounction()">试一试</button>
+        <script>
+            function myFounction(){
+                document.getElementById("demo").innerHTML = "段落被更改";
+            }
+        </script>
+    </body>
+</html>
+<!--body标签中如何编写JS脚本
+脚本放在body元素的底部会提高显示速度，因为编译脚本需要耗费时间
+-->>
