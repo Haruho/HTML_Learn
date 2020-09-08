@@ -1,0 +1,25 @@
+/*用来实现背景相关的CSS样式*/
+
+/*设施标签p的背景颜色是灰色 ,添加一个30像素的内边距*/
+p {background-color: gray;padding:30px;}
+
+/*添加一个背景，默认会无限重复充满页面*/
+/*body{background-image: url(flower.jpg);}*/
+
+
+/*可以设置不重复背景图片*/
+/*body{background-image: url(flower.jpg);background-repeat: no-repeat;}*/
+
+/* background-position的value使用百分数的时候，代表图片的位置，使用数字表示的是距离左上角的偏移值 */
+
+
+/*给背景设置一个位置，也可以用像素，画面起点（0，0）左上角*/
+/* body{background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+/* 滚动界面的时候保持背景不动 */
+body{background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

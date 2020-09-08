@@ -1,0 +1,16 @@
+/* 表格样式 */
+/* 
+修改表格的框为1像素，蓝色
+表格具有双线条边框，这是由于 table、th 以及 td 元素都有独立的边框 */
+/* table,th,td{
+    border:1px solid blue;
+} */
+
+
+/* collapse属性可以把边框合并 */
+table{
+    border-collapse: collapse;
+}
+table,th,td{
+    border:1px solid black;
+}

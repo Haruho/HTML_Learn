@@ -1,0 +1,43 @@
+/* CSS文本样式 */
+/* 所有段落首行缩进5em */
+/* p{text-indent: 5em;} */
+/* 也可以使用负值 不过有超出浏览器边界的隐患 */
+/* p{text-indent: -5em;padding-left: 5em;} */
+/* 居中对齐，left表示左对齐，right代表右对齐 */
+header{text-align: center;}
+
+/*词隔5像素，默认是0  可以为 负值 */
+/*p.eng表示的是 class是eng的p标签*/
+p.eng {word-spacing: 30px;}
+/*字间隔*/
+p.poem {letter-spacing: 10px;}
+
+/*通过id来确定标签并且修改为大写字母*/
+#engheader{
+    text-transform: uppercase;
+}
+/*字体*/
+/*用户浏览器没有首先设定的字体的话，会跳转到下一个字体，都没有就变成默认字体*/
+/* body {font-family: Georgia, 'Times New Roman', Times, serif;} */
+/* body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} */
+
+/*超链接*/
+/* 链接又四种状态，未访问，以访问，悬停，正在被点击 */
+
+/*悬停和点击的时候给链接添加下划线*/
+/* a:link {text-decoration:none}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active{text-decoration: underline;} */
+
+/*变换状态颜色*/
+/* a:link{color: brown;}
+a:visited{color:black}
+a:hover{color: white;}
+a:active{color: green;} */
+
+/*链接的背景色*/
+a:link {background-color:#B2FF99;}
+a:visited {background-color:#FFFF85;}
+a:hover {background-color:#FF704D;}
+a:active {background-color:#FF704D;}
